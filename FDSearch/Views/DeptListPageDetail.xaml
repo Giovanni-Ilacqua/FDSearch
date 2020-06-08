@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FDSearch.ViewModels"
+             x:Class="FDSearch.Views.DeptListPageDetail">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
+            <Style TargetType="StackLayout" x:Key="stackInfoStyle">
+                <Setter Property="Margin" Value="5,8,5,8"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.BindingContext>
+        <local:DeptListPageDetailViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout Padding="5,20,5,20" BackgroundColor="#D9042B">
+                <Label x:Name="DeptNameShow" HorizontalTextAlignment="Center" FontSize="Title" FontAttributes="Bold" TextColor="White"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label Text="State Assigned FDID:" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="FdIdShow" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="White"/>
+                </StackLayout>
+            </StackLayout>
+
+            <Frame IsClippedToBounds="True" VerticalOptions="FillAndExpand">
+                <Frame.HasShadow>
+                    <OnPlatform x:TypeArguments="x:Boolean">
+                        <On Platform="iOS" Value="False"/>
+                        <On Platform="Android" Value="True"/>
+                    </OnPlatform>
+                </Frame.HasShadow>
+                <StackLayout>
+                    <StackLayout Style="{StaticResource stackInfoStyle}">
+                        <Label FontAttributes="Bold" Text="Phone:"/>
+                        <Label x:Name="PhoneShow" TextColor="#AC0012" TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Phone_Tapped"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Style="{StaticResource stackInfoStyle}">
+                        <Label FontAttributes="Bold" Text="County:"/>
+                        <Label x:Name="CountyShow"/>
+                    </StackLayout>
+
+                    <StackLayout Style="{StaticResource stackInfoStyle}">
+                        <Label FontAttributes="Bold" Text="Address:"/>
+                        <Label x:Name="AddressShow" TextColor="#AC0012" TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Address_Tapped"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Style="{StaticResource stackInfoStyle}">
+                        <Label FontAttributes="Bold" Text="Department Type:"/>
+                        <Label x:Name="DeptTypeShow"/>
+                    </StackLayout>
+
+                    <StackLayout Style="{StaticResource stackInfoStyle}">
+                        <Label FontAttributes="Bold" Text="Website:"/>
+                        <Label x:Name="WebsiteShow" TextColor="#AC0012" TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Website_Tapped"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+
+                </StackLayout>
+            </Frame>
+
+            
+
+            
+            
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch.iOS/FDSearch.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch.iOS/FDSearch.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch.iOS/FDSearch.iOS.csproj",
+        "projectName": "FDSearch.iOS",
+        "projectPath": "/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch.iOS/FDSearch.iOS.csproj",
+        "packagesPath": "/Users/giovanni/.nuget/packages/",
+        "outputPath": "/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/giovanni/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/FDSearch.csproj": {
+                "projectPath": "/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/FDSearch.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.847, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/FDSearch.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/FDSearch.csproj",
+        "projectName": "FDSearch",
+        "projectPath": "/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/FDSearch.csproj",
+        "packagesPath": "/Users/giovanni/.nuget/packages/",
+        "outputPath": "/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/giovanni/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.847, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

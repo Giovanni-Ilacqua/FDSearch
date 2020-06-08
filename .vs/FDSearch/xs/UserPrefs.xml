@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{34FFA37B-CCCD-4F44-8191-28774F501E75}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="FDSearch/ViewModels/DeptListPageViewModel.cs" Line="57" Column="1" />
+      <File FileName="FDSearch/Views/DeptListPage.xaml" Line="1" Column="1" />
+      <File FileName="FDSearch/Views/DeptListPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="FDSearch/Views/DeptListPageDetail.xaml" Line="43" Column="25" />
+      <File FileName="FDSearch/ViewModels/DeptListPageDetailViewModel.cs" Line="1" Column="1" />
+      <File FileName="FDSearch/Models/FireDept.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FDSearch" expanded="True">
+            <Node name="FDSearch" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="DeptListPage.xaml" expanded="True" />
+                <Node name="DeptListPageDetail.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="FDSearch.Android" expanded="True" selected="True">
+              <Node name="Assets" expanded="True" />
+            </Node>
+            <Node name="FDSearch.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.FDSearch.Android PreferredExecutionTarget="Android.pixel_2_xl_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FDSearch.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.50C44B24-4AC2-445A-A9F8-A945C751B802" />
+</Properties>

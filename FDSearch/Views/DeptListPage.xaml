@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:local="clr-namespace:FDSearch.ViewModels"
+             ios:Page.UseSafeArea="True"
+             x:Class="FDSearch.Views.DeptListPage"
+             Title="FDSearch">
+
+    <ContentPage.BindingContext>
+        <local:DeptListPageViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout Padding="10,0,10,0">
+            <SearchBar TextChanged="Handle_TextChanged" Placeholder="Search by Name, FDID, County, or City"/>
+            <ListView ItemsSource="{Binding FireDeptList}"
+                      ItemTapped="OnItemSelected"
+                      
+                      IsPullToRefreshEnabled="True"
+                      x:Name="DeptListView">
+                  
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Detail="{Binding FdId, StringFormat='FDID: {0:S}'}" Text="{Binding DeptName}" TextColor="Black"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/bin/Release/netstandard2.0/FDSearch.deps.json
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/bin/Release/netstandard2.0/FDSearch.dll
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/bin/Release/netstandard2.0/ref/FDSearch.dll
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/bin/Release/netstandard2.0/FDSearch.pdb
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/Views/DeptListPage.xaml.g.cs
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/Views/DeptListPageDetail.xaml.g.cs
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/FDSearch.AssemblyInfoInputs.cache
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/FDSearch.AssemblyInfo.cs
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/FDSearch.csproj.CoreCompileInputs.cache
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/XamlC.stamp
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/FDSearch.dll
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/ref/FDSearch.dll
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/FDSearch.pdb
+/Users/giovanni/Documents/Projects/Xamarin Apps/FDSearch/FDSearch/obj/Release/netstandard2.0/FDSearch.csprojAssemblyReference.cache
